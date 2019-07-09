@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+body {
+    height: 100vh;
+}
+.code-wrapper {
+    height: 50vh;
+    padding: 10px;
+}
+#code {
+    height: 100%;
+    overflow: hidden;
+}
+.preview-wrapper {
+    height: 50vh;
+    overflow: hidden;
+}
+.preview {
+    height: 100%;
+}
